@@ -1,0 +1,18 @@
+to reset the password
+
+
+OH_Req 9 
+when user enter valid username and click on reset then the mail will be triggerd to the user mailid and message should be displayed
+	"Reset Passwork link sent. Please check spam folder as well"
+& Cancel button should be displayed
+
+
+OH_SC_07
+	TC 1 - valid username entry
+		expected - 1. message should be displayed -- "Reset Passwork link sent. Please check spam folder as well"	 		
+	TC 2 - invalid username entry - message - "Could not find a user with given details"
+	TC 3 - empty username - "username cannot be empty"
+	TC 4 - Cancel button should take to orange hrm home page
+
+
+Reset link - ? 
