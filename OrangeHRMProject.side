@@ -43,6 +43,94 @@
       ],
       "value": "Forgot your password?"
     }]
+  }, {
+    "id": "90b1d1bc-d632-4b8f-8879-04a060690fc2",
+    "name": "TC_OH_3",
+    "commands": [{
+      "id": "5fb4f3ae-69eb-4084-b418-c075e5ec091c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f45c1e88-69fd-4f3b-9c54-05661571dce9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x774",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c0066a7-2067-418a-a0d8-632a729f6fa8",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtUsername",
+      "targets": [
+        ["id=txtUsername", "id"],
+        ["name=txtUsername", "name"],
+        ["css=#txtUsername", "css:finder"],
+        ["xpath=//input[@id='txtUsername']", "xpath:attributes"],
+        ["xpath=//div[@id='divUsername']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "john ken"
+    }, {
+      "id": "930d8ae7-38f3-4774-a104-034ea3da8461",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtPassword",
+      "targets": [
+        ["id=txtPassword", "id"],
+        ["name=txtPassword", "name"],
+        ["css=#txtPassword", "css:finder"],
+        ["xpath=//input[@id='txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='divPassword']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bae99679-c520-4865-8b98-582218a16470",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtPassword",
+      "targets": [
+        ["id=txtPassword", "id"],
+        ["name=txtPassword", "name"],
+        ["css=#txtPassword", "css:finder"],
+        ["xpath=//input[@id='txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='divPassword']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "john123"
+    }, {
+      "id": "36a6b329-b31a-4649-8505-1ef8b2e171cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnLogin",
+      "targets": [
+        ["id=btnLogin", "id"],
+        ["name=Submit", "name"],
+        ["css=#btnLogin", "css:finder"],
+        ["xpath=//input[@id='btnLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='divLoginButton']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6669c3a-d965-4048-855c-26ec26956ca1",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=spanMessage",
+      "targets": [
+        ["id=spanMessage", "id"],
+        ["css=#spanMessage", "css:finder"],
+        ["xpath=//span[@id='spanMessage']", "xpath:attributes"],
+        ["xpath=//div[@id='divLoginButton']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Invalid credentials')]", "xpath:innerText"]
+      ],
+      "value": "Invalid credentials"
+    }]
   }],
   "suites": [{
     "id": "4e72f92a-00ef-4702-bec5-5daeba07e321",
