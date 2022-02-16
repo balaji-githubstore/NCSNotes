@@ -1,0 +1,57 @@
+{
+  "id": "112688ef-a14c-4633-95d2-4db129fc95a5",
+  "version": "2.0",
+  "name": "OrangeHRMProject",
+  "url": "https://opensource-demo.orangehrmlive.com",
+  "tests": [{
+    "id": "0a4cd7a2-f097-423c-a17c-4a562585516a",
+    "name": "TC_OH_1",
+    "commands": [{
+      "id": "0e617b37-73ec-4b31-acbd-a1c8c321e65c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95389c48-0326-4d0d-b1e0-fe7cc9835cc5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x774",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e18003f-fae8-4d7d-bd60-e4a43a52b006",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "OrangeHRM",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b4a836f-5901-4093-b6e9-39348b73105f",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Forgot your password?",
+      "targets": [
+        ["linkText=Forgot your password?", "linkText"],
+        ["css=#forgotPasswordLink > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgot your password?')]", "xpath:link"],
+        ["xpath=//div[@id='forgotPasswordLink']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/auth/requestPasswordResetCode')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgot your password?')]", "xpath:innerText"]
+      ],
+      "value": "Forgot your password?"
+    }]
+  }],
+  "suites": [{
+    "id": "4e72f92a-00ef-4702-bec5-5daeba07e321",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0a4cd7a2-f097-423c-a17c-4a562585516a"]
+  }],
+  "urls": ["https://opensource-demo.orangehrmlive.com/"],
+  "plugins": []
+}
