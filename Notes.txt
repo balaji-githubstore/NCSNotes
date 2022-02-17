@@ -52,14 +52,58 @@ Add Employee
 	-- valid employee record with credential enabled
 	-- valid employee record with credential disabled
 
+	--invalid
+	-- upload image- invalid file format < 1 MB (pdf, docx) - user should get "Accepts jpg, .png, .gif up to 1MB. Recommended dimensions: 200px X 200px"
+	-- upload image - valid file (jpg, .png, .gif) with > 1 MB - user should get "Accepts jpg, .png, .gif up to 1MB. Recommended dimensions: 200px X 200px"
+
+	-- empty and click on submit 
+	-- different records for --- password and confirm password -- Confirm password should match the given password
+
+--Scenario - Employee with valid credential 
+
+	-- add valid employee record with credential enabled - employee should login into portal     -- (TRY RECORDING WITH SELENIUM IDE)
+
+	-- add valid employee record with credential disabled - employee should not be allowed to login
+
+	-- add valid employee record with credential disabled and goto employee list and enable  - should login into portal
 	
 
-
-
+WILL START AT 4:30 pm ist
 
 
 My Info Module 
 	TC1 - test case for UI component 
+
+Admin
+admin123
+
+
+JIRA account - gmail account
+
+
+
+
+
+Amazon.in
+flipkart.in
+phptravel.in
+spicejet.in 
+
+--- try to write 5 test cases 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
