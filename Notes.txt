@@ -45,9 +45,18 @@ OH_SC_08
 	
 -- 
 Add Employee 
-	-- test case for UI component 
+	-- test case for UI component
+	-- test case for Ui component after clicking on checkbox for credential
 		
-	-- valid employee record - 
+	-- valid employee record without credential - 
+	-- valid employee record with credential enabled
+	-- valid employee record with credential disabled
+
+	
+
+
+
+
 
 My Info Module 
 	TC1 - test case for UI component 
