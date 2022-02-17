@@ -43,9 +43,17 @@ OH_SC_08
 	TC14 --> login page - try with old password and login - invalid credential 
 	TC15 --> Reset second time link to change password --> link should be message as "Link expired"
 	
+-- 
+Add Employee 
+	-- test case for UI component 
+		
+	-- valid employee record - 
+
+My Info Module 
+	TC1 - test case for UI component 
 
 
-will start at 2:10 PM IST
+
 
 
  
