@@ -89,7 +89,10 @@ flipkart.in
 phptravel.in
 spicejet.in 
 
---- try to write 5 test cases 
+--- try to write 5 test cases (2 Tcs - add to bag, flight searching) 
+
+Userstories - 5 scenario (given, when, then)
+Spotify, facebook, instagram, whatsapp,
 
 
 

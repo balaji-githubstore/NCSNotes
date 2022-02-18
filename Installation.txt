@@ -1,0 +1,10 @@
+1. Git Installation 
+	https://git-scm.com/
+
+2. Github account
+3. Selenium IDE in browser
+4. JIRA account
+5. Python 
+	https://www.python.org/downloads/
+
+	Local - C:\Program Files\Python310

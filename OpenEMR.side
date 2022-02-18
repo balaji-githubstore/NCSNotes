@@ -1,0 +1,314 @@
+{
+  "id": "973d9944-b8bf-414d-8f17-9d8d0fc1397c",
+  "version": "2.0",
+  "name": "OpenEMR",
+  "url": "https://demo.openemr.io",
+  "tests": [{
+    "id": "71bb3ac4-44fa-449f-a890-a5633db4f736",
+    "name": "TC1_OP_75",
+    "commands": [{
+      "id": "703a904b-cde8-46b3-b3ef-e76a8ce7509b",
+      "comment": "",
+      "command": "open",
+      "target": "/b/openemr/interface/login/login.php?site=default",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1659313-8628-40de-b7a5-2ee11cf68a25",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x774",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c626246-49a8-4cd6-9369-6156f203032c",
+      "comment": "",
+      "command": "type",
+      "target": "id=authUser",
+      "targets": [
+        ["id=authUser", "id"],
+        ["name=authUser", "name"],
+        ["css=#authUser", "css:finder"],
+        ["xpath=//input[@id='authUser']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "66034ae6-95c7-4ff1-a2da-9c378a05a4c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=clearPass",
+      "targets": [
+        ["id=clearPass", "id"],
+        ["name=clearPass", "name"],
+        ["css=#clearPass", "css:finder"],
+        ["xpath=//input[@id='clearPass']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "pass"
+    }, {
+      "id": "84c8e97a-2fe8-4348-b74e-22ba81c4d469",
+      "comment": "",
+      "command": "click",
+      "target": "name=languageChoice",
+      "targets": [
+        ["name=languageChoice", "name"],
+        ["css=.form-control:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='languageChoice']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Default - English (Standard)\nAlbanian\nAmharic\nArabic\nArmenian\nBahasa Indonesia\nBengali\nBosnian\nChinese (Simplified)\nChinese (Traditional)\nCroatian\nCzech\nDanish\nDutch\nEnglish (Indian)\nEnglish (Standard)\nEstonian\nFinnish\nFrench (Canadian)\nFrench (Standard)\nGeorgian\nGerman\nGreek\nHebrew\nHindi\nHungarian\nItalian\nJapanese\nKorean\nLithuanian\nMarathi\nMongolian\nNorwegian\nPersian\nPolish\nPortuguese (Brazilian)\nPortuguese (European)\nRomanian\nRussian\nSerbian\nSinhala\nSlovak\nSomali\nSpanish (Latin American)\nSpanish (Spain)\nSwedish\nTamil\nThai\nTurkish\nUkrainian\nUrdu\nVietnamese')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17eca8eb-7333-42c0-92a6-3ec967bef0e9",
+      "comment": "",
+      "command": "select",
+      "target": "name=languageChoice",
+      "targets": [],
+      "value": "label=English (Indian)"
+    }, {
+      "id": "fb3957b5-02c3-41a8-8c17-a09d6f8ccb3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-login",
+      "targets": [
+        ["css=.btn-login", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'  Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39b6902e-585e-4d72-8968-b0f973d4c154",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) > .menuLabel",
+      "targets": [
+        ["css=div:nth-child(4) > .menuLabel", "css:finder"],
+        ["xpath=//div[@id='mainMenu']/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e51d4afa-9729-4416-b315-05eedd1b7951",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "15696c3a-c283-45b3-bb38-073c076224da",
+      "comment": "",
+      "command": "click",
+      "target": "id=form_note_type",
+      "targets": [
+        ["id=form_note_type", "id"],
+        ["name=form_note_type", "name"],
+        ["css=#form_note_type", "css:finder"],
+        ["xpath=//select[@id='form_note_type']", "xpath:attributes"],
+        ["xpath=//form[@id='new_note']/div/div/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Unassigned\nChart Note\nInsurance\nInsurance\nNew Document\nPharmacy\nPrior Auth\nReferral\nTest Scheduling\nBill/Collect\nOther\nOther\nOther\nLab Results\nNew Orders\nPatient Reminders\nImage Results')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e33670ca-0c74-4fcb-a7c2-ad16f3bd1b2f",
+      "comment": "",
+      "command": "select",
+      "target": "id=form_note_type",
+      "targets": [],
+      "value": "label=Insurance"
+    }, {
+      "id": "27757e33-7157-4f25-ad97-ddf5832fb01b",
+      "comment": "",
+      "command": "click",
+      "target": "id=form_patient",
+      "targets": [
+        ["id=form_patient", "id"],
+        ["css=#form_patient", "css:finder"],
+        ["xpath=//input[@id='form_patient']", "xpath:attributes"],
+        ["xpath=//form[@id='new_note']/div/div/div/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57315c8b-cd02-478d-9944-9eb4f01e9d16",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "556c43dc-7442-461f-b5b8-eb4a3080310f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=3",
+      "targets": [
+        ["index=3"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa03921d-98e2-4c2e-a9ac-7f329f482bd0",
+      "comment": "",
+      "command": "click",
+      "target": "id=select2-by-name-container",
+      "targets": [
+        ["id=select2-by-name-container", "id"],
+        ["css=#select2-by-name-container", "css:finder"],
+        ["xpath=//span[@id='select2-by-name-container']", "xpath:attributes"],
+        ["xpath=//div[@id='searchCriteria']/form/div/div/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02a85f47-38b5-481e-92e5-580e94161273",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-to-list",
+      "targets": [
+        ["id=add-to-list", "id"],
+        ["css=#add-to-list", "css:finder"],
+        ["xpath=//button[@id='add-to-list']", "xpath:attributes"],
+        ["xpath=//div[@id='searchCriteria']/form/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to list')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c504520-3ef9-47c1-a95f-c012ba639909",
+      "comment": "",
+      "command": "click",
+      "target": "id=send-patients",
+      "targets": [
+        ["id=send-patients", "id"],
+        ["css=#send-patients", "css:finder"],
+        ["xpath=//button[@id='send-patients']", "xpath:attributes"],
+        ["xpath=//div[@id='searchCriteria']/form/div/div[3]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0e4cea3-db98-4815-b5d7-36745d0840e5",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "f53b755e-a6d7-42ca-b76f-079328e0d16f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "79512988-4554-43f8-b5a7-ac5bbd69caa9",
+      "comment": "",
+      "command": "click",
+      "target": "id=users",
+      "targets": [
+        ["id=users", "id"],
+        ["name=users", "name"],
+        ["css=#users", "css:finder"],
+        ["xpath=//select[@id='users']", "xpath:attributes"],
+        ["xpath=//form[@id='new_note']/div/div/div[2]/div/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30ef7c17-01d6-45f8-878d-8384f963706b",
+      "comment": "",
+      "command": "select",
+      "target": "id=users",
+      "targets": [],
+      "value": "label=Smith, Billy"
+    }, {
+      "id": "b6b59d6c-67be-4fa0-97b4-61bd9460957e",
+      "comment": "",
+      "command": "click",
+      "target": "id=note",
+      "targets": [
+        ["id=note", "id"],
+        ["name=note", "name"],
+        ["css=#note", "css:finder"],
+        ["xpath=//textarea[@id='note']", "xpath:attributes"],
+        ["xpath=//form[@id='new_note']/div/div/div[2]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a75cb77f-e1a7-4a08-ae33-8f8e25c97332",
+      "comment": "",
+      "command": "type",
+      "target": "id=note",
+      "targets": [
+        ["id=note", "id"],
+        ["name=note", "name"],
+        ["css=#note", "css:finder"],
+        ["xpath=//textarea[@id='note']", "xpath:attributes"],
+        ["xpath=//form[@id='new_note']/div/div/div[2]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Hello, how are you"
+    }, {
+      "id": "fef9dec4-ffa9-42df-9bab-fe1e5486b532",
+      "comment": "",
+      "command": "click",
+      "target": "id=newnote",
+      "targets": [
+        ["id=newnote", "id"],
+        ["css=#newnote", "css:finder"],
+        ["xpath=//button[@id='newnote']", "xpath:attributes"],
+        ["xpath=//form[@id='new_note']/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Send message')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa913c2f-ef65-4275-a834-ed1df235b150",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(4)",
+      "targets": [
+        ["css=td:nth-child(4)", "css:finder"],
+        ["xpath=//tr[@id='row1']/td[4]", "xpath:idRelative"],
+        ["xpath=//td[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15fdd740-92af-40e9-8df8-394d9b6b0b6f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=td:nth-child(4) > div",
+      "targets": [
+        ["css=td:nth-child(4) > div", "css:finder"],
+        ["xpath=//tr[@id='row1']/td[4]/div", "xpath:idRelative"],
+        ["xpath=//td[4]/div", "xpath:position"]
+      ],
+      "value": "Insurance"
+    }]
+  }],
+  "suites": [{
+    "id": "d6a16ec8-7c42-4af1-8386-eeecab19bf19",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["71bb3ac4-44fa-449f-a890-a5633db4f736"]
+  }],
+  "urls": ["https://demo.openemr.io/"],
+  "plugins": []
+}
