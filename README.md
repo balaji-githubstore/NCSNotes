@@ -21,3 +21,10 @@ spicejet.in
 Userstories - 5 scenario (given, when, then)
 Spotify, facebook, instagram, whatsapp, any application
 
+
+
+Feb 21, 2022 Task 6 (refer session notes)
+
+Create package with name as “math_article”
+Create a python file (module) with name as “Volume”
+Create method for below formula (any 3 methods) Volume Of Sphere Volume Of A Cylinder Volume Of A Pyramid Volume Of Cone Volume Of Cuboid Volume Of Hemisphere
