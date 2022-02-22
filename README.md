@@ -28,3 +28,12 @@ Feb 21, 2022 Task 6 (refer session notes)
 Create package with name as “math_article”
 Create a python file (module) with name as “Volume”
 Create method for below formula (any 3 methods) Volume Of Sphere Volume Of A Cylinder Volume Of A Pyramid Volume Of Cone Volume Of Cuboid Volume Of Hemisphere
+
+
+Feb 22
+Task 8 
+1.	https://edabit.com/challenge/xbZR26rHMNo32yz35
+2.	https://edabit.com/challenge/Yx2a9B57vXRuPevGh
+3.	https://edabit.com/challenge/QQp2o22huzBCkHesy
+4.	https://edabit.com/challenge/uKPc5faEzQkMwLYPP
+5.	https://edabit.com/challenge/cXnkmRdxqJrwdsP4n

@@ -1,0 +1,70 @@
+Python
+
+Architecture
+datatypes
+conditional statements
+iterative statements
+methods 
+
+class & objects -- 
+
+OOPs concept - definition
+Oops concepts
+inheritance
+polymorphism 
+abstraction 
+
+
+
+Python - 
+module - math.py 
+	pow(a,b)
+	max(1,2,34)
+
+
+
+
+Student class - type/template
+	student_id
+	student_name
+	student_percentage
+	school_name
+	school_address
+
+
+(101,john,78.2,global school, #23 chennai)
+(102,peter,58.2,global school, #23 chennai)
+(103,ken,98.2,global school, #23 chennai)
+
+
+
+
+
+Static Memory -->(school_name='Global School',school_address="#23 Chennai-34")
+
+
+
+stu1-->L1-->(student_id=101,student_name=john,student_percentage=78.2)
+
+
+stu2-->L2-->(student_id=102,student_name=peter,student_percentage=58.2)
+
+
+
+
+
+
+1GB - 1024MB
+1MB - 1024KB
+1KB - 1024B
+1B - 8 bits
+1 bit - (0 or 1)
+
+
+
+
+
+
+
+
+
