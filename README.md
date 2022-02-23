@@ -30,6 +30,8 @@ Create a python file (module) with name as “Volume”
 Create method for below formula (any 3 methods) Volume Of Sphere Volume Of A Cylinder Volume Of A Pyramid Volume Of Cone Volume Of Cuboid Volume Of Hemisphere
 
 
+
+Frb 22, 2020
 Task 8 
 1.	https://edabit.com/challenge/xbZR26rHMNo32yz35
 2.	https://edabit.com/challenge/Yx2a9B57vXRuPevGh
@@ -49,3 +51,19 @@ Item 2  2, Laptop, 6, 45000
 Item 3  3, Phone, 5, 12500 
 7.	Create a method to display item details 
 8.	Create a method to calculate discounted item price by accepting discount percentage as parameter 
+
+
+
+
+
+Frb 23, 2020
+*** Comments ***
+Create demo2_orangehrm_suite.robot
+1. Navigate to the url https://opensource-demo.orangehrmlive.com/index.php
+2. Enter username as john
+3. Enter password as john123
+4. Click Login
+5. User should be displayed with error message as "Invalid Credential"
+
+
+

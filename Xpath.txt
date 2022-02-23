@@ -1,0 +1,10 @@
+Xpath 
+//tagname[@attribute='']
+//tagname[text()='']
+
+
+Example: 
+//input[@id='authUser']
+//input[@class='form-control']
+
+//button[@type='submit']

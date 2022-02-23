@@ -8,3 +8,7 @@
 	https://www.python.org/downloads/
 
 	Local - C:\Program Files\Python310
+
+6. Robot framework language server plugin in pycharm 
+7. pip install robotframework
+8. pip install --upgrade robotframework-seleniumlibrary
