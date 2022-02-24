@@ -56,7 +56,7 @@ Item 3  3, Phone, 5, 12500
 
 
 
-Frb 23, 2020
+Frb 23, 2022
 *** Comments ***
 Create demo2_orangehrm_suite.robot
 1. Navigate to the url https://opensource-demo.orangehrmlive.com/index.php
@@ -64,6 +64,30 @@ Create demo2_orangehrm_suite.robot
 3. Enter password as john123
 4. Click Login
 5. User should be displayed with error message as "Invalid Credential"
+
+
+
+Feb 24, 2022
+Task 14 
+1.	Navigate onto https://www.salesforce.com/in/form/signup/freetrial-sales/
+2.	Enter first name as “John”
+3.	Enter last name as “wick”
+4.	Enter work email as “john@gmail.com”
+5.	Select Job title as “IT Manager”
+6.	Select Employees as “101-500 employees”
+7.	Select country as “United Kingdom”
+8.	Do not fill the phone number
+9.	Click on check box 
+10.	Click on start my free trial 
+11.	Get the error message displayed “Enter a valid phone number”
+Task 15 
+1.	Navigate onto https://www.medibuddy.in/
+2.	Click on Not Now button
+3.	Click on Login
+4.	Click on I have an Insurance/Corporate Account 
+5.	Click on Login using Username & Password
+6.	Enter username as john 
+7.	Click proceed 
 
 
 
