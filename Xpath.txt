@@ -6,6 +6,10 @@ Xpath
 //tagname[@attribute='']
 //tagname[text()='']
 
+Contains
+//tagname[contains(@attribute,'')]
+//tagname[contains(text(),'')]
+
 
 Example: 
 //input[@id='authUser']
@@ -21,3 +25,4 @@ Example:
 
 //button[text()='Start My Trial']
 
+//input[contains(@id,'UserFirstName')]

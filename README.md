@@ -80,6 +80,8 @@ Task 14
 9.	Click on check box 
 10.	Click on start my free trial 
 11.	Get the error message displayed “Enter a valid phone number”
+
+
 Task 15 
 1.	Navigate onto https://www.medibuddy.in/
 2.	Click on Not Now button
