@@ -1,4 +1,4 @@
-Absolute xpath - /html/body/main/div/div/section/div[2]/form/section/div/div/div[7]/button
+Absolute xpath (not recommeded) - /html/body/main/div/div/section/div[2]/form/section/div/div/div[7]/button
 
 Relative Xpath
 
@@ -9,6 +9,26 @@ Xpath
 Contains
 //tagname[contains(@attribute,'')]
 //tagname[contains(text(),'')]
+
+Grouping of xpath 
+(//div[@class='checkbox-ui'])[2]
+
+And - Or
+//tagname[@attribute='' and @attribute='']
+
+Following-preceding 
+
+Parent - Child 
+
+Ancestor - descendant 
+
+
+
+
+
+
+
+
 
 
 Example: 
@@ -26,3 +46,24 @@ Example:
 //button[text()='Start My Trial']
 
 //input[contains(@id,'UserFirstName')]
+
+(//div[@class='checkbox-ui'])[2]
+
+//div[text()='I have an Insurance/Corporate Account']
+
+//tagname[contains(text(),'')]
+
+//b[contains(text(),'phpMy')]
+
+(//input[@id='existcust'])[2]
+
+//img[contains(@src,'go.gif')]
+
+id
+name
+link
+partial link
+
+
+xpath
+
