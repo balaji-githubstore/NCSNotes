@@ -22,6 +22,8 @@ Parent - Child
 
 Ancestor - descendant 
 
+https://demo.openemr.io/b/openemr/acknowledge_license_cert.html
+
 
 
 
