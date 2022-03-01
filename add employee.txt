@@ -1,0 +1,22 @@
+
+#18. Validate the header as Personal Details
+#19. Check text box contains firstname  as John
+#20. Check text box contains empid  as 5001
+
+
+#21. Employee List
+#22. Table should contains added record
+
+
+username
+password
+firstname
+lastname
+employeeid
+filepath
+user id
+password
+confirmpassword
+Enabled 
+
+expected_header
