@@ -13,4 +13,8 @@
 7. pip install robotframework
 8. pip install --upgrade robotframework-seleniumlibrary
 
-9. Chromedriver.exe 
+9. Chromedriver.exe, edgedriver.exe, geckodriver
+10. pip install --upgrade robotframework-datadriver
+	pip install --upgrade robotframework-datadriver[XLS]
+
+11. 

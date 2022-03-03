@@ -1,0 +1,94 @@
+50 pages - 50 .resource 
+//will start at 10:50 AM IST
+login_page.resource
+	Enter Username (username)
+	Enter Password (password)
+	Click On Login
+	Click On Forgot Your Password
+	Get Login Page Title 
+	Validate Error Message In Login
+	Click On Facebook
+	Click On Twitter 
+	... 
+
+main_page.resource - all the menu 
+	Mouse Over On Admin
+	Click On My Info
+	Click on Dashboard
+	Click On Welcome
+	Click On Logout 
+	Get MainPage URL 
+	....
+
+dashboard_page.resource
+	Click On Assign Leave
+	Validate Header
+
+
+my_info_page.resource
+	Click On Personal Details
+	Click On Contact Details
+	Click On Emergency Contacts 
+	Click On Dependents
+	...
+personal details_page.resource
+	Enter FirstName
+	Enter LastName
+	...
+
+emergency_contacts_page.resource
+	Click On Add Emergency Contact
+	Enter Contact Name
+	Enter Relationship
+	Enter Mobile Number 
+	Click On Add Attachments 
+
+------------------------------
+
+main_page.resource
+	Click On MyInfo
+	Click On Directory
+	Click On Welcome
+	Click On LogOut
+
+my_info_page.resource
+	Click On Emergency Contacts 
+	Click On Dependents
+	Click On Job
+
+emergency_contacts_page.resource
+	Click On Add Emergency Contact
+	Enter Contact Name
+	Enter Relationship
+	Enter Mobile Number 
+	Click On Save
+	Validate ContactName-Relationship-MobileNumber
+		
+
+-----
+main_page.resource
+	Click On MyInfo
+
+my_info_page.resource
+	Click On Emergency Contacts 
+	Click On Dependents
+	Click On Job
+
+emergency_contacts_page.resource
+	Click On Add Emergency Contact
+	Enter Contact Name
+	Enter Relationship
+	Enter Mobile Number 
+	Click On Save
+	Validate ContactName-Relationship-MobileNumber
+		
+
+
+Task 19 
+1.	Use operating system library and create directory inside the current project
+2.	In the created directory, create file zdata.txt with text as hello
+3.	Copy zdata.txt to xdata.txt
+4.	Remove zdata.txt 
+
+
+	
