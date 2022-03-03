@@ -8,15 +8,17 @@
 #22. Table should contains added record
 
 
-username
-password
-firstname
-lastname
-employeeid
-filepath
-user id
-password
-confirmpassword
-Enabled 
 
-expected_header
+#
+#username
+#password
+#firstname
+#lastname
+#employeeid
+#filepath
+#user id
+#password
+#confirmpassword
+#login_status
+#
+#expected_header
