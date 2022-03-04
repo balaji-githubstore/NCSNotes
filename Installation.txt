@@ -17,4 +17,5 @@
 10. pip install --upgrade robotframework-datadriver
 	pip install --upgrade robotframework-datadriver[XLS]
 
-11. 
+11. pip install robotframework-autorecorder
+

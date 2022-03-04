@@ -1,0 +1,31 @@
+(
+(1	Alfreds Futterkiste	Maria Anders	Obere Str. 57	Berlin	12209	Germany),
+(2	Ana Trujillo Emparedados y helados	Ana Trujillo	Avda. de la Constitución 2222	México D.F.	05021	Mexico),
+(3	Antonio Moreno Taquería	Antonio Moreno	Mataderos 2312	México D.F.	05023	Mexico)
+)
+
+Table - Product 
+
+write a query Filter record with product_id between 10 and 20
+
+
+1. get row count and print for above scenario
+2. get record details and print for above scenario 
+
+
+update Customers set ContactName='john'	where CustomerID=1
+
+Delete FROM [Customers] where CustomerID=2
+
+
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Peter', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+
+
+Insert into Products (product_id,productname,description) 
+values (5001,'PhoneX','mobile')
+
+Products 
+	product_id
+	productname
+	description

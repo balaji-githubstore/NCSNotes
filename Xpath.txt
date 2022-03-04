@@ -19,19 +19,24 @@ And - Or
 Following-preceding 
 
 Parent - Child 
+child - //table[@id='example']/tbody/tr[1]
+
 
 Ancestor - descendant 
 
 https://demo.openemr.io/b/openemr/acknowledge_license_cert.html
 
+------------------------------------------------------------------------
+CSS selector - faster than xpath 
 
+#id 
+.classname
+tagname[attribute='']
+[attribute='']
 
+Select[name='languageChoice']
 
-
-
-
-
-
+25-03-2022
 
 Example: 
 //input[@id='authUser']
